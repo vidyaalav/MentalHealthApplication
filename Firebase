@@ -1,0 +1,26 @@
+If you are looking to create your own login and sign up page for your thunkable app, you know you need to use Firebase which can be a hassle
+Here I will provide you with the steps necessary to link Firebase onto your app and make it run!
+
+
+Step 1: Create a Firebase account. This is the easiest step as you just create a Firebase account if you do not already have one
+
+Step 2: Create Project. Add a name for the project you want this under and keep the settings overall the same, most editing will be done within the project once you are in
+
+Step 3: There should be an option to add an app to your project. For Thunkable you want to click web. (It has a symbol like <>) 
+        - Then make an app name, this does not matter other than organization purposes
+        - When you click continue, you will get a bunch of code, do not worry, you do not need half of it: You only need to copy the API Key which is the first set of random letters and numbers
+        - Go back to your Thunkable App and go to settings which is located on the left sidebar. Scroll down until you see the section for Firebase and paste the Key you copied from Firebase into the API Key section
+        - Go back to Firebase and now you should be on the main page of your project after you click continue out of the code page
+        - On the left side bar, under build, there should be a label called RealTime Database: click that and click create database
+        - I would suggest using it in Test Mode since most people start here and it will automatically go into locked mode after a certain point, this just makes sure you can edit it for a few days after you connect it 
+        - Click enable and you should see a URL on the top of the section. Copy that and go back to your thunkable app. Under the API Key you had pasted earlier should be an option for a URL. Paste the URL there
+Now that the entire Firebase is created, there are some extra steps that you need to ensure you enable to make it work before the last step
+
+Step 4: Enabling Email sign up/log in. Under build once more, there is a section called authentication. Click that and go to the top and find sign in method. If you are using email, click that and make sure you ENABLE IT WITH THE BUTTON
+You are all set!
+
+The last step it to test it out and ensure everything works!!
+
+Links:
+https://community.thunkable.com/t/sign-in-masterpost/89993?u=joannie
+https://www.youtube.com/watch?v=NYKauZWnMrA
